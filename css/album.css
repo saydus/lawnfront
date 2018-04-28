@@ -5,9 +5,11 @@
 }
 .albumwrapper:hover h3{
 	background: #efefef;
+	transition: ease .5s;
 }
 .albumwrapper:hover img{
 	opacity: .8;
+	/*transition: ease .5s;*/
 }
 .albumwrapper:hover{
 	cursor: pointer;

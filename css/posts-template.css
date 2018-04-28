@@ -6,7 +6,7 @@
     /*box-shadow: 1px 3px 4px #8fb87c;*/
     font-weight: 400;
 }
- 
+
 .likes{
     display: flex;
     /*justify-content: flex-end;*/
@@ -39,4 +39,9 @@ color: #68a03cb3;
 }
 .newsbegin{
     position: relative;
+}
+@media (min-width: 767px) {
+    .pswp__bg{
+    opacity: .8!important;
+}
 }
